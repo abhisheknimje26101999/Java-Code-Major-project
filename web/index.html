@@ -1,0 +1,319 @@
+<html>
+	<head>
+		<title>CODERS HUB</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/css/main.css" />
+	
+
+	
+	</head>
+
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a class="logo" href="index.html">CODERS HUB</a>
+				<nav>
+                                    <button style="background-color:transparent;color:#a51313;" onclick="openForm()">SignIn/Register</button>
+
+					<a href="#menu">Menu</a>
+				</nav>
+			</header>
+			<!--Form-->
+			<div class="form-popup" id="myForm">
+				<form action="Login" class="form-container">
+				  <h1 style="color:#ffffff">Login</h1>
+			  
+				  <label for="email" ><b style="color:white">Email</b></label>
+				  <input type="text" placeholder="Enter Email" name="email" required>
+			  
+				  <label for="psw" ><b style="color:white">Password</b></label>
+				  <input type="password" placeholder="Enter Password" name="psw" required>
+			  
+				  <button type="submit" class="btn">Login</button>
+				  <button type="button"  class="btn cancel" onclick="closeForm()">New user</button>
+				  <p style="text-align:center">Forgot Password?</p>
+				</form>
+			  </div>
+			  <div class="form-popup" id="myForm2" style="height: 707px;">
+                <form action="RegisterUser" method="POST" class="form-container">
+				  <h1 style="color:#ffffff">Register</h1>
+			  
+				  <label for="fname" ><b style="color:white">First Name</b></label>
+				  <input type="text" placeholder="Enter First Name" name="fname" required>
+				  <label for="lname" ><b style="color:white">Last Name</b></label>
+				  <input type="text" placeholder="Enter Last Name" name="lname" required>
+
+				  <label for="email" ><b style="color:white">Email-Id</b></label>
+				  <input type="text" placeholder="Enter Email" name="email" required>
+		
+				  <label for="psw" ><b style="color:white">New Password</b></label>
+				  <input type="password" placeholder="Enter Password" name="psw" required>
+				  <label for="psw" ><b style="color:white">Retype Password</b></label>
+				  <input type="password" placeholder="Retype Password" name="rpsw" required>
+				  <label for="psw" ><b style="color:white">Recovery Mail-id</b></label>
+				  <input type="text" placeholder="Enter Email" name="remail" required>
+
+			  
+				  <button type="submit"  class="btn cancel"  style="width:100%">Register Now!</button>
+				</form>
+			  </div>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="elements.html">Elements</a></li>
+					<li><a href="generic.html">Generic</a></li>
+				</ul>
+			</nav>
+
+		<!-- Banner -->
+			<section id="banner">
+				<div class="inner">
+					<h1>CODERS HUB</h1>
+					<p>A responsive business oriented template with a video background<br />
+					designed by <a href="https://templated.co/">TEMPLATED</a> and released under the Creative Commons License.</p>
+				</div>
+				<video autoplay loop muted playsinline src="images/banner_test.mp4"></video>
+			</section>
+			
+		<!-- Highlights -->
+			<section class="wrapper">
+				<div class="inner">
+					<header class="special">
+						<h2>Sem turpis amet semper</h2>
+						<p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor.</p>
+					</header>
+					<div class="highlights">
+						<section>	
+							<div class="content">
+								<header>
+									<a href="#" class="icon fa fa-microphone" aria-hidden="true "><span class="label">Icon</span></a>
+									<h3 style="margin-top: 10px;">Natuaral Language Processing</h3>
+								</header>
+								
+								<p>Natural language processing (NLP) is a subfield of linguistics, computer science, information engineering, and artificial intelligence concerned with the interactions between computers and human (natural) languages.</p>
+							</div>
+					
+						</section>
+						<section>
+							<div class="flip-card">
+								<div class="flip-card-inner">
+									<div class="flip-card-front">
+										<div class="content">
+											<header>
+												<a href="#"><i class="fas fa-brain" style="font-size:58px ;margin-top: 9px;"  aria-hidden="true"></i><span class="label"></span></a>
+												<h3 style='margin-top:18px'>Machine Learning</h3>
+											</header>
+											<br>
+											<p>Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. </p>
+										</div>
+									</div>
+								<div class="flip-card-back">
+									<h1>MACHINE LEARNING HACKS:</h1>
+									<ul style="line-height: 28px;">
+										
+										<li>Regression</li>
+										<li>Classification</li>
+										<li>Clustering</li>
+										<li>Time Series Prediction</li>
+										<li>Artificial neural network</li>
+
+
+									</ul>
+								</div>
+							</div>
+				</div>
+						</section>
+						<section>
+							<div class="flip-card">
+								<div class="flip-card-inner">
+									<div class="flip-card-front">
+										<div class="content">
+											<header>
+												<a href="#"><i class=" fa fa-eye" style="font-size:58px ;margin-top: 9px;font-size: 68px;"  aria-hidden="true"></i><span class="label"></span></a>	
+												<h3 style="margin-top: 10px">Computer Vision</h3>
+											</header>
+											<br>
+											<p>Computer vision is the field of computer science that focuses on replicating parts of the complexity of the human vision system and enabling computers to identify and process objects in images and videos in the same way that humans do.</p>
+										</div>
+									</div>
+									<div class="flip-card-back">
+										<h1 style="font-size: 42px;">COMPUTER VISION WORKHORSE:</h1>
+										<ul style="line-height: 28px;">
+											
+											<li>Object Detection</li>
+											<li>Face Recognition</li>
+											<li>Image Classificatione</li>
+											<li>Image Generation</li>
+											<li>Handwriting Recognition</li>
+	
+									</div>
+								</div>
+							</div>
+							<!--<div class="content">
+								<header>
+
+									<a href="#"><i class=" fa fa-eye" style="font-size:58px ;margin-top: 9px;font-size: 68px;"  aria-hidden="true"></i><span class="label"></span></a>
+									
+									<h3 style="margin-top: 10px">Computer Vision</h3>
+								</header>
+								<br>
+								<p>Computer vision is the field of computer science that focuses on replicating parts of the complexity of the human vision system and enabling computers to identify and process objects in images and videos in the same way that humans do.</p>
+							</div>-->
+						</section>
+						<!--<section>
+							<div class="content">
+								<header>
+									<a href="#" class="icon fa-line-chart"><span class="label">Icon</span></a>
+									<h3>Interdum gravida</h3>
+								</header>
+								
+								<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+							</div>
+						</section>
+						<section>
+							<div class="content">
+								<header>
+									<a href="#" class="icon fa-paper-plane-o"><span class="label">Icon</span></a>
+									<h3>Faucibus consequat</h3>
+								</header>
+								<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+							</div>
+						</section>
+						<section>
+							<div class="content">
+								<header>
+									<a href="#" class="icon fa-qrcode"><span class="label">Icon</span></a>
+									<h3>Accumsan viverra</h3>
+								</header>
+								<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+							</div>
+						</section>-->
+					</div>
+				</div>
+			</section>
+
+		<!-- CTA -->
+			<section id="cta" class="wrapper">
+				<div class="inner">
+					<h2>Curabitur ullamcorper ultricies</h2>
+					<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing. Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing sed feugiat eu faucibus. Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida.</p>
+				</div>
+			</section>
+
+		<!-- Testimonials -->
+			<section class="wrapper">
+				<div class="inner">
+					<header class="special">
+						<h2>Faucibus consequat lorem</h2>
+						<p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor.</p>
+					</header>
+					<div class="testimonials">
+						<section>
+							<div class="content">
+								<blockquote>
+									<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+								</blockquote>
+								<div class="author">
+									<div class="image	">
+										<img src="images/pic01.jpg" alt="" />
+									</div>
+									<p class="credit">- <strong>Jane Doe</strong> <span>CEO - ABC Inc.</span></p>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="content">
+								<blockquote>
+									<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+								</blockquote>
+								<div class="author">
+									<div class="image">
+										<img src="images/pic03.jpg" alt="" />
+									</div>
+									<p class="credit">- <strong>John Doe</strong> <span>CEO - ABC Inc.</span></p>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="content">
+								<blockquote>
+									<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+								</blockquote>
+								<div class="author">
+									<div class="image">
+										<img src="images/pic02.jpg" alt="" />
+									</div>
+									<p class="credit">- <strong>Janet Smith</strong> <span>CEO - ABC Inc.</span></p>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<div class="content">
+						<section>
+							<h3>Accumsan montes viverra</h3>
+							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing. Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing sed feugiat eu faucibus. Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida.</p>
+						</section>
+						<section>
+							<h4>Sem turpis amet semper</h4>
+							<ul class="alt">
+								<li><a href="#">Dolor pulvinar sed etiam.</a></li>
+								<li><a href="#">Etiam vel lorem sed amet.</a></li>
+								<li><a href="#">Felis enim feugiat viverra.</a></li>
+								<li><a href="#">Dolor pulvinar magna etiam.</a></li>
+							</ul>
+						</section>
+						<section>
+							<h4>Magna sed ipsum</h4>
+							<ul class="plain">
+								<li><a href="#"><i class="icon fa-twitter">&nbsp;</i>Twitter</a></li>
+								<li><a href="#"><i class="icon fa-facebook">&nbsp;</i>Facebook</a></li>
+								<li><a href="#"><i class="icon fa-instagram">&nbsp;</i>Instagram</a></li>
+								<li><a href="#"><i class="icon fa-github">&nbsp;</i>Github</a></li>
+							</ul>
+						</section>
+					</div>
+					<div class="copyright">
+						&copy; Untitled. Photos <a href="https://unsplash.co">Unsplash</a>, Video <a href="https://coverr.co">Coverr</a>.
+					</div>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+			<script>
+
+				function openForm() 
+				{
+					document.getElementById("myForm").style.display = "block";
+				}
+	
+				function closeForm()
+				 {
+					document.getElementById("myForm").style.display = "none";
+
+					document.getElementById("myForm2").style.display = "block";
+				}
+	
+		
+			</script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
